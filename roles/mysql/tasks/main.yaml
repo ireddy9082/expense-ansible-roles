@@ -1,6 +1,6 @@
 - name: configure mysql server
-hosts: mysql
-become: yes
+  hosts: mysql
+  become: yes
 vars:
   mysql_root_password: ExpenseApp@1
 tasks:
